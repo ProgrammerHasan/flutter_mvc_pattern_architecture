@@ -3,6 +3,6 @@ import 'package:flutter/material.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // init your states
+  // init your app states
   runApp(App());
 }
