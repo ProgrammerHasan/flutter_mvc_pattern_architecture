@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mvc_pattern/views/home.dart';
 
 class Routes {
   Routes._();
@@ -11,8 +12,6 @@ class Routes {
   // build
   static final routes = <String, WidgetBuilder>{
     home: (context) => AppHome(),
-    login: (context) => Login(),
-    register: (context) => Register(),
   };
 
 }
